@@ -20,9 +20,9 @@ $(document).on('ready', function() {
 
 
 	$("a").click(function(){
-  	
+  		// $(this).click('confirm("Do you wish to continue to site?")')
+  		 return confirm("Do you wish to continue to site?");
 
-		console.log('i am now restored');
 	});
 
 	// $('a').click(confirm('Do you want to visit this page?'))'
