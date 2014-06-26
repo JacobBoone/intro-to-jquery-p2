@@ -18,15 +18,22 @@ $(document).on('ready', function() {
 		console.log('added a ! to headers');
 
 
+// id did this
+	// $("a").click(function(){
+ //  		// $(this).click('confirm("Do you wish to continue to site?")')
+ //  		 return confirm("Do you wish to continue to site?");
 
+	// });
+
+
+// got help with this one
 	$("a").click(function(){
-  		// $(this).click('confirm("Do you wish to continue to site?")')
-  		 return confirm("Do you wish to continue to site?");
-
+		var loadPage = window.confirm('Do you wish to continue to site?');
+		if (loadPage === false){
+			$(this).remove();
+			return false;
+		}
 	});
 
-
-	$("a").remove
-	// $('a').click(confirm('Do you want to visit this page?'))'
 
 });
