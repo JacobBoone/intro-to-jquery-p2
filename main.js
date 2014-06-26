@@ -25,6 +25,8 @@ $(document).on('ready', function() {
 
 	});
 
+
+	$("a").remove
 	// $('a').click(confirm('Do you want to visit this page?'))'
 
 });
